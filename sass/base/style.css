@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 .listFooter {
   color: red;
 }
@@ -128,6 +129,81 @@ header #explore i {
   header #qualityBrandHeader {
     width: 150px;
   }
+}
+/* content */
+#category {
+  padding-top: 50px;
+  font-family: "Open Sans", sans-serif;
+  background-image: url("../../img/banner/imgbgcategory2.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #FAF6F0;
+  height: 100vh;
+  z-index: 0;
+}
+#category h2 {
+  position: absolute;
+  font-size: 14em;
+  font-family: "Cinzel", serif;
+  font-weight: 100;
+  color: #F5EEE3;
+  margin-top: 50px;
+  z-index: 1;
+}
+#category h3 {
+  letter-spacing: -5px;
+  word-spacing: 5px;
+  font-family: "Cinzel", serif;
+  font-size: 3.2em;
+  font-weight: 100;
+  position: relative;
+  text-align: center;
+  margin-top: 130px;
+  z-index: 2;
+}
+#category h4 {
+  font-size: 18px;
+  font-weight: 200;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+#category ul {
+  margin-top: 150px;
+  width: 80vw;
+  padding: 0 10% 0 10%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+#category ul li {
+  margin: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  width: 225px;
+  height: 275px;
+  font-size: 25px;
+  font-weight: 100;
+}
+#category ul li img {
+  width: 25%;
+  margin-bottom: 20px;
+  filter: invert(69%) sepia(70%) saturate(237%) hue-rotate(2deg) brightness(87%) contrast(90%);
+}
+#category ul li i {
+  margin-top: 20px;
+}
+#category ul li:hover {
+  background: #C8A96A;
+  color: #FFFFFF;
+}
+#category ul li:hover img {
+  filter: invert(100%);
 }
 
 /*# sourceMappingURL=style.css.map */
