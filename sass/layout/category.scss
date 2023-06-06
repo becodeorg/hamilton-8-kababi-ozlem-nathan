@@ -76,6 +76,32 @@
     }
 
   }
+}
 
+@media screen and (max-width: 1280px) {
+
+  #category{
+    h2{
+      font-size: 10em;
+    }
+    ul{
+      margin-top: 5px;
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 886px) {
+
+  #category{
+    h2{
+      font-size: 4em;
+      font-weight: 100;
+    }
+  }
 
 }

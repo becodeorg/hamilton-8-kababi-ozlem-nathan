@@ -206,4 +206,22 @@ header #explore i {
   filter: invert(100%);
 }
 
+@media screen and (max-width: 1280px) {
+  #category h2 {
+    font-size: 10em;
+  }
+  #category ul {
+    margin-top: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 886px) {
+  #category h2 {
+    font-size: 4em;
+    font-weight: 100;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
