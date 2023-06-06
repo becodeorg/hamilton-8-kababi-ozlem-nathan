@@ -118,6 +118,10 @@ footer {
         border-radius: 50%;
         background-color: #212527;
         padding: 15px;
+
+        &:hover {
+          color: #c8a96a;
+        }
       }
     }
   }
@@ -173,9 +177,16 @@ footer {
       grid-template-columns: auto;
       row-gap: 20px;
       margin: auto;
+      justify-content: center;
 
       .listFooter {
         margin-left: O;
+      }
+    }
+
+    .footer-bottom {
+      p {
+        font-size: 8px;
       }
     }
   }
