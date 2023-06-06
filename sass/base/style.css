@@ -46,6 +46,7 @@ footer .footerFlexbox .listFooter .emailinput {
   height: 40px;
   width: 250px;
   border: 0;
+  padding-left: 20px;
 }
 footer .footerFlexbox .listFooter #email {
   display: flex;
@@ -107,8 +108,7 @@ footer .footer-bottom .logo-social i {
   padding: 15px;
 }
 footer .footer-bottom .logo-social i:hover {
-  background-color: #c8a96a;
-  color: white;
+  color: #c8a96a;
 }
 
 @media (max-width: 1150px) {
@@ -157,4 +157,4 @@ footer .footer-bottom .logo-social i:hover {
   footer .footer-bottom p {
     font-size: 8px;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
