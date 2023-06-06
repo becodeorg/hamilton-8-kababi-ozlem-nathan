@@ -222,6 +222,19 @@ header #explore i {
     font-size: 4em;
     font-weight: 100;
   }
+  #category ul {
+    margin-top: 50px;
+    width: 80vw;
+    padding: 0 10% 0 10%;
+    margin-left: 3%;
+  }
+  #category ul li {
+    margin: 10px;
+    width: 100px;
+    height: 150px;
+    font-size: 15px;
+    font-weight: 100;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -97,11 +97,28 @@
 
 @media screen and (max-width: 886px) {
 
-  #category{
-    h2{
+  #category {
+    h2 {
       font-size: 4em;
       font-weight: 100;
     }
-  }
 
+    ul {
+      margin-top: 50px;
+      width: 80vw;
+      padding: 0 10% 0 10%;
+      margin-left: 3%;
+      li {
+        margin: 10px;
+        width: 100px;
+        height: 150px;
+        font-size: 15px;
+        font-weight: 100;
+
+
+      }
+
+    }
+
+  }
 }
