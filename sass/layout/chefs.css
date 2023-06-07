@@ -1,0 +1,52 @@
+#chefs {
+  background-image: url(../../img/our-chefs/imgbg-ourchefs.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#chefs h2 {
+  position: absolute;
+  font-size: 9em;
+  font-family: "Cinzel", serif;
+  font-weight: 100;
+  color: #f5eee3;
+  z-index: 1;
+  opacity: 0.05;
+}
+#chefs h3 {
+  letter-spacing: -3px;
+  word-spacing: 5px;
+  font-family: "Cinzel", serif;
+  font-size: 2.7em;
+  font-weight: 100;
+  position: relative;
+  text-align: center;
+  margin-top: 130px;
+  z-index: 2;
+  color: white;
+}
+#chefs h4 {
+  font-size: 14px;
+  font-weight: lighter;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  margin-bottom: 30px;
+}
+#chefs .chef_photos {
+  display: flex;
+  justify-content: center;
+}
+#chefs .chef_photos img {
+  margin: 10px;
+  width: 20%;
+}
+
+@media (max-with: 530px) {
+  #chef .chef_photos {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=chefs.css.map */
