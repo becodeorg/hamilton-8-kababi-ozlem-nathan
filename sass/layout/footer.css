@@ -109,6 +109,7 @@ footer .footer-bottom .logo-social i {
 }
 footer .footer-bottom .logo-social i:hover {
   color: #c8a96a;
+  cursor: pointer;
 }
 
 @media (max-width: 1150px) {

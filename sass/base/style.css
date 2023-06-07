@@ -109,6 +109,7 @@ footer .footer-bottom .logo-social i {
 }
 footer .footer-bottom .logo-social i:hover {
   color: #c8a96a;
+  cursor: pointer;
 }
 
 @media (max-width: 1150px) {
@@ -239,6 +240,14 @@ footer .footer-bottom .logo-social i:hover {
   padding-top: 15px;
   font-size: 13px;
 }
+#blog .article_container .readmore:hover {
+  background-color: #c8a96a;
+  color: white;
+  cursor: pointer;
+}
+#blog .article_container .readmore i:hover {
+  color: white;
+}
 
 .awards {
   display: flex;
@@ -254,7 +263,6 @@ footer .footer-bottom .logo-social i:hover {
   #blog h2 {
     font-size: 6em;
   }
-
   .award {
     display: grid;
     grid-template-columns: auto auto auto;

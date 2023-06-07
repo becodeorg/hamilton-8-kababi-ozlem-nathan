@@ -87,6 +87,16 @@
       border-radius: 5px;
       padding-top: 15px;
       font-size: 13px;
+
+      &:hover {
+        background-color: #c8a96a;
+        color: white;
+        cursor: pointer;
+      }
+
+      i:hover {
+        color: white;
+      }
     }
   }
 }
