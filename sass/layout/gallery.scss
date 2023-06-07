@@ -43,7 +43,13 @@
     img{
       margin: 10px;
       align-self: center;
+      filter: grayscale(0%);
+      &:hover{
+        filter: grayscale(100%);
+      }
     }
+
+
   }
 
   a {
