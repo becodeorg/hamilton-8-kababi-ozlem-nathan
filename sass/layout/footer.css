@@ -1,3 +1,161 @@
-.listFooter {
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Frank+Ruhl+Libre&family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-image: url(../../img/footer/img-ng-footer.jpg);
+  background-size: contain;
+}
+footer .logofooter {
+  display: block;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+footer .footerFlexbox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 20px;
+}
+footer .footerFlexbox .listFooter {
+  color: #8f9c98;
+  list-style-type: none;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  width: 200px;
+  line-height: 38px;
+  margin-left: 0;
+  margin-right: auto;
+}
+footer .footerFlexbox .listFooter .fa-solid,
+footer .footerFlexbox .listFooter .fa-regular {
+  color: #c8a96a;
+  padding-right: 10px;
+}
+footer .footerFlexbox .listFooter:nth-child(3) {
+  width: 350px;
+}
+footer .footerFlexbox .listFooter .emailinput {
+  height: 40px;
+  width: 250px;
+  border: 0;
+  padding-left: 20px;
+}
+footer .footerFlexbox .listFooter #email {
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-end;
+}
+footer .footerFlexbox .listFooter #email i {
+  background-color: #c8a96a;
+  color: white;
+  border: 1px solid #c8a96a;
+  text-align: center;
+  padding: 14px;
+  padding-top: 12px;
+}
+footer .footerFlexbox .listFooter li:nth-child(1) {
+  color: white;
+  font-size: 22px;
+  font-family: "Cinzel", serif;
+  padding-top: 10px;
+}
+footer .footer-bottom {
+  border-top: 1px solid #212527;
+  position: relative;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 15px;
+}
+footer .footer-bottom p {
+  color: #8f9c98;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+footer .footer-bottom p a {
+  text-decoration: none;
+  color: #c8a96a;
+}
+footer .footer-bottom #logo-spoon {
+  width: 100px;
+  position: absolute;
+  top: -50%;
+  right: 45%;
+  margin: 0 auto;
+}
+footer .footer-bottom .logo-social {
+  color: #9a9ca5;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  height: 45px;
+}
+footer .footer-bottom .logo-social i {
+  border: 1px solid #212527;
+  border-radius: 50%;
+  background-color: #212527;
+  padding: 15px;
+}
+footer .footer-bottom .logo-social i:hover {
+  color: #c8a96a;
+  cursor: pointer;
+}
+
+@media (max-width: 1150px) {
+  footer .footerFlexbox {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+  }
+  footer .footerFlexbox .listFooter {
+    margin-left: O;
+  }
+}
+@media (max-width: 1300px) {
+  footer .footer-bottom {
+    justify-content: center;
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-direction: column;
+  }
+  footer .footer-bottom #logo-spoon {
+    width: 70px;
+    top: -25%;
+    right: 45%;
+  }
+  footer .footer-bottom .logo-social {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  footer .footer-bottom p {
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 670px) {
+  footer .footerFlexbox {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 20px;
+    margin: auto;
+    justify-content: center;
+  }
+  footer .footerFlexbox .listFooter {
+    margin-left: O;
+  }
+  footer .footer-bottom p {
+    font-size: 8px;
+  }
 }/*# sourceMappingURL=footer.css.map */
