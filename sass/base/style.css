@@ -386,6 +386,7 @@ header #explore:hover {
 }
 #special #specialTitle {
   padding-top: 130px;
+  margin-right: 5%;
 }
 #special #specialTitle h2 {
   position: absolute;
@@ -397,6 +398,8 @@ header #explore:hover {
   z-index: 1;
 }
 #special #specialTitle h3 {
+  mix-blend-mode: difference;
+  color: #FFFFFF;
   letter-spacing: -5px;
   word-spacing: 5px;
   font-family: "Cinzel", serif;
@@ -408,6 +411,8 @@ header #explore:hover {
   z-index: 2;
 }
 #special #specialTitle h4 {
+  mix-blend-mode: difference;
+  color: #FFFFFF;
   font-size: 18px;
   font-weight: 200;
   position: relative;
@@ -461,6 +466,40 @@ header #explore:hover {
   top: -320px;
   margin-bottom: -520px;
   z-index: 1;
+}
+
+@media screen and (max-width: 1860px) {
+  #specialTitle h2 {
+    font-size: 150px !important;
+  }
+}
+@media screen and (max-width: 1440px) {
+  #special {
+    background: #FAF6F0;
+    padding-bottom: 50px;
+  }
+  #special img {
+    display: none;
+  }
+}
+@media screen and (max-width: 1262px) {
+  #special ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1262px) {
+  #special #specialTitle h2 {
+    font-size: 60px !important;
+  }
+  #special ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #special ul li div {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
