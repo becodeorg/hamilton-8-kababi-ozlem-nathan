@@ -8,6 +8,7 @@
 /* content */
 /*
  font-family: 'Open Sans', sans-serif;  content
+     font-family: 'Cinzel', serif;   title
 */
 * {
   padding: 0;
@@ -378,6 +379,88 @@ header #explore:hover {
   #why article div {
     width: 90%;
   }
+}
+#special {
+  background: #FAF6F0 url("../../img/our-menu/imgbg-our-menu.jpg") no-repeat right center;
+  background-size: auto 100%;
+}
+#special #specialTitle {
+  padding-top: 130px;
+}
+#special #specialTitle h2 {
+  position: absolute;
+  font-size: 14em;
+  font-family: "Cinzel", serif;
+  font-weight: 100;
+  color: #F5EEE3;
+  margin-top: -75px;
+  z-index: 1;
+}
+#special #specialTitle h3 {
+  letter-spacing: -5px;
+  word-spacing: 5px;
+  font-family: "Cinzel", serif;
+  font-size: 3.2em;
+  font-weight: 100;
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  z-index: 2;
+}
+#special #specialTitle h4 {
+  font-size: 18px;
+  font-weight: 200;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+#special ul {
+  position: relative;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  gap: 25px;
+  margin: 150px 10% 0 10%;
+  font-family: "Open Sans", sans-serif;
+  z-index: 2;
+}
+#special ul li {
+  background-color: #FFFFFF;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 25px;
+}
+#special ul li:hover {
+  border: 3px #C8A96A dashed;
+  margin: -3px;
+  cursor: pointer;
+}
+#special ul li div {
+  width: 80%;
+}
+#special ul li div .menuName {
+  font-weight: 300;
+  font-size: 30px;
+}
+#special ul li div .menuDetail {
+  font-weight: 100;
+}
+#special ul li .price {
+  color: #C8A96A;
+  text-align: center;
+  align-self: center;
+  font-size: 40px;
+  font-weight: 400;
+  width: 20%;
+}
+#special img {
+  position: relative;
+  top: -320px;
+  margin-bottom: -520px;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
