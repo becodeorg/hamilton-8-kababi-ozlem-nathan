@@ -1,0 +1,151 @@
+#special{
+  background: #FAF6F0 url("../../img/our-menu/imgbg-our-menu.jpg") no-repeat right center;
+  background-size: auto 100%;
+
+  #specialTitle {
+    padding-top: 130px;
+    margin-right: 5%;
+    h2 {
+
+      position: absolute;
+      font-size: 14em;
+      font-family: 'Cinzel', serif;
+      font-weight: 100;
+      color: #F5EEE3;
+      margin-top: -75px;
+      z-index: 1;
+
+    }
+
+    h3 {
+      mix-blend-mode: difference;
+      color: #FFFFFF;
+      letter-spacing: -5px;
+      word-spacing: 5px;
+      font-family: 'Cinzel', serif;
+      font-size: 3.2em;
+      font-weight: 100;
+      position: relative;
+      text-align: center;
+      margin-top: 10px;
+      z-index: 2;
+    }
+
+    h4 {
+      mix-blend-mode: difference;
+      color: #FFFFFF;
+      font-size: 18px;
+      font-weight: 200;
+      position: relative;
+      text-align: center;
+      z-index: 2;
+
+    }
+  }
+
+  ul{
+    position: relative;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    gap: 25px;
+    margin: 150px 10% 0 10%;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 2;
+    li{
+      background-color: #FFFFFF;
+      font-weight: 100;
+      display: flex;
+      justify-content: center;
+      border-radius: 5px;
+      padding: 25px;
+
+      &:hover{
+        border: 3px #C8A96A dashed;
+        margin: -3px;
+        cursor: pointer;
+      }
+
+      div{
+        width: 80%;
+        .menuName{
+          font-weight: 300;
+          font-size: 30px;
+        }
+        .menuDetail{
+          font-weight: 100;
+        }
+      }
+      .price{
+        color: #C8A96A;
+        text-align: center;
+        align-self: center;
+        font-size: 40px;
+        font-weight: 400;
+        width: 20%;
+      }
+    }
+  }
+
+  img{
+    position: relative;
+    top: -320px;
+    margin-bottom: -520px;
+    z-index: 1;
+  }
+
+}
+
+@media screen and (max-width: 1860px) {
+  #specialTitle{
+    h2 {
+      font-size: 150px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  #special{
+    background: #FAF6F0;
+    padding-bottom: 50px;
+    img{
+      display: none;
+    }
+
+  }
+}
+
+@media screen and (max-width: 1262px) {
+  #special{
+
+    ul{
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+}
+
+@media screen and (max-width: 1262px) {
+  #special{
+    #specialTitle{
+      h2 {
+        font-size: 60px !important;
+      }
+    }
+
+    ul{
+      li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        div{
+          width: 100%;
+        }
+      }
+    }
+
+  }
+
+}

@@ -12,22 +12,26 @@
 
 <!-- modification html -->
 
+
 <header>
     <nav>
         <img src="img/logo/logo.png" alt="logo Kababi">
         <ul>
-            <li>Home<i class="fas fa-chevron-down"></i></li>
-            <li>About</li>
-            <li>Page<i class="fas fa-chevron-down"></i></li>
-            <li>Shop<i class="fas fa-chevron-down"></i></li>
-            <li>Contact</li>
+            <li><a>Home<i class="fas fa-chevron-down"></i></a></li>
+            <li><a>About</a></li>
+            <li><a>Page<i class="fas fa-chevron-down"></i></a></li>
+            <li><a>Shop<i class="fas fa-chevron-down"></i></a></li>
+            <li><a>Contact</a></li>
         </ul>
-        <p><i class="fa-solid fa-phone-flip"></i>+012 (345) 6789</p>
-        <a>BOOK A TABLE<i class="fas fa-arrow-right"></i></a>
+        <div>
+            <p><i class="fa-solid fa-phone-flip"></i>+012 (345) 6789</p>
+            <a>BOOK A TABLE<i class="fas fa-arrow-right"></i></a>
+        </div>
+        <a id="burgerMenu"><i class="fa-solid fa-bars"></i></a>
     </nav>
-    <img src="img/slider/img_bg2.png" alt="Quality Brand">
+    <img id="qualityBrandHeader" src="img/slider/img_bg2.png" alt="Quality Brand">
     <h1>BEST QUALITY FOODS</h1>
-    <a>EXPLORE OUR MENU<i class="fas fa-arrow-right"></i></a>
+    <a id="explore">EXPLORE OUR MENU<i class="fas fa-arrow-right"></i></a>
 </header>
 
 
@@ -46,13 +50,14 @@
     <h4>Best foods for your & family</h4>
 
     <ul>
-        <li>&#F102 <br> Cheeseburger <i class="fas fa-arrow-right"></i></li>
-        <li>&#F101 <br> Pizza Slice <i class="fas fa-arrow-right"></i></li>
-        <li>&#F103 <br> Coffe-Cup  <i class="fas fa-arrow-right"></i></li>
-        <li>&#F104 <br> Chicken-Leg <i class="fas fa-arrow-right"></i></li>
-        <li>&#F106 <br> Energy Drink <i class="fas fa-arrow-right"></i></li>
-        <li>&#F105 <br> Shrimp <i class="fas fa-arrow-right"></i></li>
+        <li><img src="img/banner/burger.png" alt="burger"> <br> Cheeseburger <i class="fas fa-arrow-right"></i></li>
+        <li><img src="img/banner/pizza.png" alt="pizza"><br> Pizza Slice <i class="fas fa-arrow-right"></i></li>
+        <li><img src="img/banner/coffee.png" alt="coffee"> <br> Coffe-Cup  <i class="fas fa-arrow-right"></i></li>
+        <li><img src="img/banner/chicken-leg.png" alt="chicken"> <br> Chicken-Leg <i class="fas fa-arrow-right"></i></li>
+        <li><img src="img/banner/cocktail.png" alt="cocktail"> <br> Energy Drink <i class="fas fa-arrow-right"></i></li>
+        <li><img src="img/banner/shrimp.png" alt="shrimp"> <br> Shrimp <i class="fas fa-arrow-right"></i></li>
     </ul>
+
 
 
 </section>
@@ -66,13 +71,13 @@
 
 <section id="why">
 
-    <div>
+    <div id="imgWhy">
         <img src="img/gallery/imgfood1.png" alt="creep">
         <img src="img/gallery/imgfood2.jpg" alt="salade">
         <img src="img/gallery/imgfood3.png" alt="eggs">
     </div>
 
-    <div>
+    <div id="titles">
         <h2>ABOUT US</h2>
         <h3>WHY CHOOSE US</h3>
         <h4>Best foods fot your & family</h4>
@@ -80,7 +85,7 @@
 
     </div>
 
-    <div>
+    <article>
         <img src="img/about-us/img_aboutus_home1.jpg" alt="homme">
         <div>
             <p>
@@ -89,7 +94,7 @@
             <a>DISCOVER MORE<i class="fas fa-arrow-right"></i></a>
         </div>
 
-    </div>
+    </article>
 
 </section>
 
@@ -99,74 +104,77 @@
 
 
 <section id="special">
-    <h2>OUR MENU</h2>
-    <h3>TRY OUR SPECIAL OFFER</h3>
-    <h4>Best foods fot your & family</h4>
-    <img src="img/our-menu/imgbg-our-menu.jpg" alt="pain">
+    <div id="specialTitle">
+        <h2>OUR MENU</h2>
+        <h3>TRY OUR SPECIAL OFFER</h3>
+        <h4>Best foods fot your & family</h4>
+    </div>
+
+
     <ul>
 
         <li>
             <div>
-                <p>Raw Scallops From  Erquy</p>
-                <p>Candied Jerusalem artichokes, truffle</p>
+                <p class="menuName">Raw Scallops From  Erquy</p>
+                <p class="menuDetail">Candied Jerusalem artichokes, truffle</p>
             </div>
-            <p>$89</p>
+            <p class="price">$89</p>
         </li>
 
         <li>
             <div>
-                <p>Celeriac and Truffle Ravioli</p>
-                <p>Roasted langoustine, consommé</p>
+                <p class="menuName">Celeriac and Truffle Ravioli</p>
+                <p class="menuDetail">Roasted langoustine, consommé</p>
             </div>
-            <p>$89</p>
+            <p class="price">$89</p>
         </li>
 
         <li>
             <div>
-                <p>Cod Filet Cooked on One Side</p>
-                <p>Chorizo, chickpea espuma, pequillos</p>
+                <p class="menuName">Cod Filet Cooked on One Side</p>
+                <p class="menuDetail">Chorizo, chickpea espuma, pequillos</p>
             </div>
-            <p>$89</p>
+            <p class="price">$89</p>
         </li>
 
         <li>
             <div>
-                <p>Sea Bass Ceviche</p>
-                <p>Avocado, butternut, lime</p>
+                <p class="menuName">Sea Bass Ceviche</p>
+                <p class="menuDetail">Avocado, butternut, lime</p>
             </div>
-            <p>$89</p>
+            <p class="price">$89</p>
         </li>
 
         <li>
             <div>
-                <p>Corrèze Pan-seared Veal Liver</p>
-                <p>Olive oil mashed potato, onion jus</p>
+                <p class="menuName">Corrèze Pan-seared Veal Liver</p>
+                <p class="menuDetail">Olive oil mashed potato, onion jus</p>
             </div>
-            <p>$89</p>
+            <p class="price">$89</p>
         </li>
 
         <li>
             <div>
-                <p>Grilled Veal Filet Mignon</p>
-                <p>Pumpkin, endives with hazeInuts</p>
+                <p class="menuName">Grilled Veal Filet Mignon</p>
+                <p class="menuDetail">Pumpkin, endives with hazeInuts</p>
             </div>
-            <p>$89</p>
+            <p class="price">$89</p>
         </li>
 
         <li>
             <div>
-                <p>Tender Octopus and Fennel</p>
-                <p>Citrus, wild rocket condiment </p>
+                <p class="menuName">Tender Octopus and Fennel</p>
+                <p class="menuDetail">Citrus, wild rocket condiment </p>
             </div>
-            <p>$89</p>
+            <p class="price">$89</p>
         </li>
 
         <li>
             <div>
-                <p>Viennes Veal Cutlet</p>
-                <p>Ricotta and spinach gnocchi, Caccio de Pepe</p>
+                <p class="menuName">Viennes Veal Cutlet</p>
+                <p class="menuDetail">Ricotta and spinach gnocchi, Caccio de Pepe</p>
             </div>
-            <p>$89</p>
+            <p class="price">$89</p>
         </li>
     </ul>
 
@@ -181,7 +189,7 @@
 
 <section id="gallery">
 
-    <h2>GALERRY</h2>
+    <h2>GALLERY</h2>
     <h3>RESTAURANTS PHOTO GALLERY</h3>
     <h4>Best foods fot your & family</h4>
 
